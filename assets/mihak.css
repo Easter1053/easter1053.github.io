@@ -188,3 +188,11 @@ a:focus-visible{outline:2px solid var(--k);outline-offset:2px}
 .cat-en{font-weight:200;font-size:clamp(28px,7.5vw,34px);letter-spacing:-.03em;text-transform:none}
 .toc-en{font-weight:500;letter-spacing:.01em;text-transform:none;font-size:12.5px}
 .arch h1{font-weight:200;letter-spacing:-.035em;text-transform:none;font-size:44px}
+/* Logo — light sweep + blinking rouge dot */
+.logo .mk{background:linear-gradient(105deg,#000 0%,#000 45%,#8f8f8f 48.5%,#e2e2e2 50%,#8f8f8f 51.5%,#000 55%,#000 100%);background-size:400% 100%;
+ -webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:logoShine 5.5s ease-in-out infinite}
+.foot .logo .mk{background-image:linear-gradient(105deg,#fff 0%,#fff 45%,#8a8a8a 48.5%,#fff 50%,#8a8a8a 51.5%,#fff 55%,#fff 100%)}
+.logo .dot{-webkit-text-fill-color:var(--rouge);color:var(--rouge);display:inline-block;animation:dotBlink 1.6s ease-in-out infinite}
+@keyframes logoShine{0%{background-position:100% 0}55%,100%{background-position:0% 0}}
+@keyframes dotBlink{0%,45%{opacity:1}60%,85%{opacity:.12}100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.logo .mk,.logo .dot{animation:none}}
