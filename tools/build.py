@@ -72,7 +72,7 @@ def body(d):
 {buzz}<p class="lab">WHAT HAPPENED</p>
 <p class="lede">{e(r["lede"])}</p>
 {bx}{ba}<ol>{pts}</ol>
-<p class="card">{e(r["card"])}</p>
+<p class="card">{e(r["card"]).replace("@mihak.branding", f'<a href="{IG}" target="_blank" rel="noopener">@mihak.branding</a>')}</p>
 </div></section>
 <section class="picks"><div class="wrap">
 <div class="sec-head"><p class="bar">EDITOR'S SELECTION</p><h2>Today's <em>Picks</em></h2><p>오늘 가장 이슈가 된 브랜딩 뉴스 다섯</p></div>
