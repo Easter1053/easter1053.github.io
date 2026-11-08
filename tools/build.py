@@ -7,7 +7,7 @@ Usage:
       # also write a single self-contained page (fonts as data URIs) for the claude.ai artifact
 
 Writes issues/<iso>/index.html, index.html (latest issue), archive/index.html, issues/issues.json.
-issue.json keys: iso, weekday, no, label(optional), read{h,buzz,lede,bx[str],ba[str],points[[k,v]],card}, picks[{cat,type,h,why}],
+issue.json keys: iso, weekday, no, label(optional), read{h,lede,bx[str],ba[str],quote,foryou[str],card}, picks[{cat,type,h,why}],
 cats[{en,ko,items[{side,type,h,s,src,links[[name,url]],week?}],note?}], memo[str].
 """
 import base64, html, json, os, sys, glob
@@ -53,10 +53,14 @@ def body(d):
         sec += (f'<section class="cat" id="c{i+1}"><div class="wrap"><header class="cat-head"><span class="cat-idx">{i+1:02d}</span><div>'
                 f'<span class="cat-en">{c["en"]}</span><span class="cat-sub"><b>{c["ko"]}</b>{sub}</span></div></header>{items}{note}</div></section>')
     r = d["read"]
-    buzz = f'<p class="buzz">◆ 선정 이유 · {e(r["buzz"])}</p>' if r.get("buzz") else ""
-    bx = (f'<div class="ba bx"><p class="ba-k">LIVE BX</p>' + "".join(f"<p>{e(x)}</p>" for x in r["bx"]) + '</div>') if r.get("bx") else ""
-    ba = (f'<div class="ba"><p class="ba-k">BRANDING AESTHETICS</p>' + "".join(f"<p>{e(x)}</p>" for x in r["ba"]) + '</div>') if r.get("ba") else ""
-    pts = "".join(f"<li><b>{e(a)}</b> {e(b)}</li>" for a, b in r["points"])
+    def sec(n, k, paras, cls=""):
+        return (f'<div class="rs{cls}"><p class="rs-k"><span class="rs-n">{n}</span><span class="rs-t">{k}</span></p>'
+                + "".join(f"<p>{e(x)}</p>" for x in paras) + '</div>') if paras else ""
+    secs = sec("01", "WHAT HAPPENED", [r["lede"]]) + sec("02", "LIVE BX", r.get("bx")) + sec("03", "BRANDING AESTHETICS", r.get("ba"))
+    quote = f'<blockquote class="rq">{e(r["quote"])}</blockquote>' if r.get("quote") else ""
+    fy = (f'<div class="fy"><p class="rs-k"><span class="rs-n">04</span><span class="rs-t">FOR YOU</span></p>'
+          + "".join(f"<p>{e(x)}</p>" for x in r["foryou"])
+          + f'<a class="fy-cta" href="{CONSULT}" target="_blank" rel="noopener">나만의 미학 설계하기 <span class="arr">→</span></a></div>') if r.get("foryou") else ""
     memo = "".join(f"<li>{e(m)}</li>" for m in d["memo"])
     total = sum(len(c["items"]) for c in cats)
     return f'''<header class="mast"><div class="wrap">
@@ -69,9 +73,7 @@ def body(d):
 <section class="read"><div class="wrap">
 <p class="kick">THE READ · 오늘의 미학</p>
 <h2>{e(r["h"])}</h2>
-{buzz}<p class="lab">WHAT HAPPENED</p>
-<p class="lede">{e(r["lede"])}</p>
-{bx}{ba}<ol>{pts}</ol>
+{secs}{quote}{fy}
 <p class="card">{e(r["card"]).replace("@mihak.branding", f'<a href="{IG}" target="_blank" rel="noopener">@mihak.branding</a>')}</p>
 </div></section>
 <section class="picks"><div class="wrap">
