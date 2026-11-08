@@ -7,7 +7,7 @@ Usage:
       # also write a single self-contained page (fonts as data URIs) for the claude.ai artifact
 
 Writes issues/<iso>/index.html, index.html (latest issue), archive/index.html, issues/issues.json.
-issue.json keys: iso, weekday, no, label(optional), read{h,lede,points[[k,v]],card}, picks[{cat,type,h,why}],
+issue.json keys: iso, weekday, no, label(optional), read{h,buzz,lede,ba[str],points[[k,v]],card}, picks[{cat,type,h,why}],
 cats[{en,ko,items[{side,type,h,s,src,links[[name,url]],week?}],note?}], memo[str].
 """
 import base64, html, json, os, sys, glob
@@ -53,6 +53,8 @@ def body(d):
         sec += (f'<section class="cat" id="c{i+1}"><div class="wrap"><header class="cat-head"><span class="cat-idx">{i+1:02d}</span><div>'
                 f'<span class="cat-en">{c["en"]}</span><span class="cat-sub"><b>{c["ko"]}</b>{sub}</span></div></header>{items}{note}</div></section>')
     r = d["read"]
+    buzz = f'<p class="buzz">◆ 선정 이유 · {e(r["buzz"])}</p>' if r.get("buzz") else ""
+    ba = (f'<div class="ba"><p class="ba-k">BRANDING AESTHETICS</p>' + "".join(f"<p>{e(x)}</p>" for x in r["ba"]) + '</div>') if r.get("ba") else ""
     pts = "".join(f"<li><b>{e(a)}</b> {e(b)}</li>" for a, b in r["points"])
     memo = "".join(f"<li>{e(m)}</li>" for m in d["memo"])
     total = sum(len(c["items"]) for c in cats)
@@ -66,8 +68,9 @@ def body(d):
 <section class="read"><div class="wrap">
 <p class="kick">THE READ · 오늘의 해석</p>
 <h2>{e(r["h"])}</h2>
+{buzz}<p class="lab">WHAT HAPPENED</p>
 <p class="lede">{e(r["lede"])}</p>
-<ol>{pts}</ol>
+{ba}<ol>{pts}</ol>
 <p class="card">{e(r["card"])}</p>
 </div></section>
 <section class="picks"><div class="wrap">

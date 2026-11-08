@@ -16,7 +16,7 @@ a:focus-visible{outline:2px solid var(--k);outline-offset:2px}
 .date i{font-style:normal;color:var(--g3);margin:0 10px;font-weight:400}
 .logo{display:flex;flex-direction:column;align-items:center;margin-top:20px;line-height:1}
 .logo .the{font-family:var(--serif);font-size:18px;letter-spacing:.6em;padding-left:.6em}
-.logo .mk{font-family:var(--serif);font-size:clamp(76px,19vw,124px);font-weight:800;letter-spacing:-.01em;font-variation-settings:"opsz" 60;line-height:.92;margin-top:6px}
+.logo .mk{font-family:var(--serif);font-size:clamp(76px,19vw,124px);font-weight:600;letter-spacing:0;font-variation-settings:"opsz" 36;line-height:.92;margin-top:6px}
 .tagline{margin-top:18px;font-size:13px;letter-spacing:.14em;color:var(--g2)}
 .toc{background:var(--k);color:var(--w)}
 .toc .wrap{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));padding-block:6px}
@@ -26,12 +26,18 @@ a:focus-visible{outline:2px solid var(--k);outline-offset:2px}
 .toc-ko{font-size:11px;color:#9a9a9a}.toc-ko b{color:var(--w);font-weight:600}
 .read{background:var(--k);color:var(--w);border-top:1px solid var(--line-d)}
 .read .wrap{padding-block:52px 50px}
-.read .kick{font-family:var(--serif);font-size:13px;letter-spacing:.3em;color:#9a9a9a}
+.read .kick{font-size:12px;font-weight:700;letter-spacing:.2em;color:#9a9a9a}
+.read .buzz{margin:14px 0 0;font-size:12px;line-height:1.6;color:#9a9a9a}
+.read .lab{margin:26px 0 0;font-size:11px;font-weight:700;letter-spacing:.2em;color:#8a8a8a}
+.read .lab+.lede{margin-top:8px}
+.read .ba{margin:28px 0 0;padding:22px 0 0;border-top:1px solid var(--w)}
+.read .ba-k{font-size:15px;font-weight:800;letter-spacing:.14em;color:var(--w);margin:0 0 12px}
+.read .ba p:not(.ba-k){font-size:15px;line-height:1.9;color:#ececec;margin:0 0 12px}
 .read h2{font-size:clamp(26px,6vw,34px);font-weight:600;line-height:1.35;letter-spacing:-.02em;margin:14px 0 0;text-wrap:balance}
 .read .lede{font-size:14px;line-height:1.85;color:#cfcfcf;margin:16px 0 0}
 .read ol{list-style:none;margin:26px 0 0;padding:0;border-top:1px solid var(--line-d)}
 .read li{padding:16px 0;border-bottom:1px solid var(--line-d);font-size:14px;line-height:1.75;color:#dadada}
-.read li b{display:block;font-family:var(--serif);font-weight:400;font-size:15px;color:var(--w);letter-spacing:.06em;margin-bottom:4px}
+.read li b{display:block;font-weight:700;font-size:13px;color:var(--w);letter-spacing:.12em;margin-bottom:4px}
 .read .card{margin-top:22px;font-size:12px;color:#8a8a8a;letter-spacing:.04em}
 .picks .wrap{padding-block:50px 44px}
 .sec-head{text-align:center;margin-bottom:24px}
