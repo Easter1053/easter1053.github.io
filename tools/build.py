@@ -67,7 +67,7 @@ def body(d):
 <div class="folio"><span class="cap">Aesthetic Branding Magazine</span><a href="{IG}" target="_blank" rel="noopener">@mihak.branding</a></div>
 <p class="date"><i>|</i>{e(date_label(d))}<i>|</i></p>
 <div class="logo"><span class="the">THE</span><span class="mk">MIHAK<span class="dot">.</span></span></div>
-<p class="tagline">아트디렉터의 미학 브랜딩 매거진 · Daily</p>
+<p class="tagline">미학 브랜딩 매거진</p>
 </div></header>
 <nav class="toc" aria-label="카테고리"><div class="wrap">{toc}</div></nav>
 <section class="read"><div class="wrap">
