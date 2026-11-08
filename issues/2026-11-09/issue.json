@@ -1,0 +1,460 @@
+{
+ "iso": "2026-11-09",
+ "weekday": "월",
+ "no": "No.01",
+ "read": {
+  "h": "얼굴 위의 AI, 젠틀몬스터는 왜 호아킨 피닉스를 골랐나",
+  "lede": "젠틀몬스터가 삼성전자와 함께 만든 첫 AI 안경, '인텔리전트 아이웨어'의 캠페인 티저를 공개했어요. 조너선 글레이저가 연출하고 호아킨 피닉스가 주연을 맡았으며, 11월 12일 미국 사전예약과 13~23일 뉴욕 체험 행사가 이어집니다.",
+  "bx": [
+   "아직 가격도, 제품 이름도 공개되지 않았어요. 티저가 먼저 건네는 건 사양표가 아니라 한 배우의 얼굴과 한 감독의 시선입니다.",
+   "젠틀몬스터 매장을 떠올려 보면 익숙한 장면이에요. 안경보다 거대한 설치물이 먼저 우리를 맞는 공간이죠. 뉴욕 체험 행사도 기술을 '써 보는' 시간보다 세계관에 '들어가는' 시간에 가까울 거라 기대하게 됩니다."
+  ],
+  "ba": [
+   "젠틀몬스터는 처음부터 안경만 팔지 않았어요. 매장은 전시장이 되고, 제품은 오브제가 됐죠. 이 브랜드가 팔아 온 건 늘 낯선 경험이었습니다.",
+   "이번에도 방식은 같아요. 스마트 글래스는 기계처럼 보이는 순간 외면받습니다. 그래서 칩보다 영화를, 기능보다 얼굴을 앞세웠어요. 기술은 삼성이, 욕망은 젠틀몬스터가 맡는 구조입니다."
+  ],
+  "quote": "기술은 사양이 아니라, 얼굴로 팔린다.",
+  "foryou": [
+   "새 도구를 들고 나설 때 우리는 기능부터 말하곤 해요. 다룰 수 있는 툴, 쌓아 온 스펙. 하지만 사람을 붙잡는 건 그 도구를 쥔 나의 얼굴입니다.",
+   "젠틀몬스터가 기술 앞에 세계관을 세웠듯, 내 일에도 먼저 보여 줄 장면이 필요해요. 당신이 가장 먼저 보여 주고 싶은 얼굴은 무엇인가요?"
+  ],
+  "card": "→ 오늘의 미학은 THE READ 카드뉴스로 이어집니다 · @mihak.branding"
+ },
+ "picks": [
+  {
+   "cat": "FASHION",
+   "type": "캠페인",
+   "h": "젠틀몬스터, 호아킨 피닉스와 첫 AI 안경 티저",
+   "why": "조너선 글레이저 연출·삼성 공동 개발. 국내외 패션·테크 매체가 동시에 다룬 이번 주 최대 화제."
+  },
+  {
+   "cat": "FASHION",
+   "type": "컬래버",
+   "h": "로에베, '크리스마스의 악몽' 홀리데이 컬렉션",
+   "why": "새 디렉터 듀오 체제 로에베의 첫 홀리데이 컬래버. 11월 12일 출시."
+  },
+  {
+   "cat": "ENTERTAINMENT",
+   "type": "캠페인",
+   "h": "BTS 정국, 그라프 홀리데이 캠페인 'I Wish'",
+   "why": "그라프 66년 역사상 첫 글로벌 앰배서더의 연말 필름. 캘빈클라인 캠페인과 동시 전개."
+  },
+  {
+   "cat": "BEAUTY",
+   "type": "인수·매각",
+   "h": "록시땅, 엘레미스를 PAI 파트너스에 매각",
+   "why": "7년 만의 매각. 매출을 두 배로 키운 프레스티지 스킨케어의 새 주인."
+  },
+  {
+   "cat": "ART",
+   "type": "전시",
+   "h": "국립현대미술관, 조지아 오키프전 11월 12일 개막",
+   "why": "오키프 작품의 국내 첫 소개. 시카고미술관 컬렉션 107점."
+  }
+ ],
+ "cats": [
+  {
+   "en": "Fashion",
+   "ko": "패션",
+   "items": [
+    {
+     "side": "국내",
+     "type": "캠페인",
+     "h": "젠틀몬스터(Gentle Monster), 호아킨 피닉스(Joaquin Phoenix) 주연 '인텔리전트 아이웨어' 티저 공개",
+     "s": "조너선 글레이저(Jonathan Glazer)가 연출한 첫 AI 글래스 캠페인 티저 공개. 삼성전자와 공동 개발했으며 11월 12일 미국 사전예약, 11월 13~23일 뉴욕 체험 행사 예정. 가격·제품명은 미공개.",
+     "src": "FashionUnited 11.06 · Hypebeast 11.06 · 뉴스1 11.06",
+     "links": [
+      [
+       "원문",
+       "https://fashionunited.com/news/fashion/gentle-monster-reveals-first-look-at-intelligent-eyewear-film-with-joaquin-phoenix/2026110675611"
+      ],
+      [
+       "국내 보도",
+       "https://www.news1.kr/industry/distribution/6346113"
+      ]
+     ]
+    },
+    {
+     "side": "해외",
+     "type": "컬래버",
+     "h": "로에베(LOEWE)×디즈니, 팀 버튼(Tim Burton) '크리스마스의 악몽' 홀리데이 컬렉션",
+     "s": "잭 매콜로·라자로 에르난데스 체제의 로에베가 1993년작 '크리스마스의 악몽'을 재해석한 홀리데이 컬렉션 공개. 아마조나 백, 캐릭터 참, 향수·캔들로 구성되며 11월 12일 출시 예정.",
+     "src": "Wallpaper* 11.06 · 마리끌레르 코리아 11.06",
+     "links": [
+      [
+       "원문",
+       "https://www.wallpaper.com/fashion-beauty/loewe-tim-burton-disney-the-nightmare-before-christmas-collection"
+      ],
+      [
+       "국내 보도",
+       "https://www.marieclairekorea.com/?p=573111"
+      ]
+     ]
+    },
+    {
+     "side": "국내",
+     "type": "팝업",
+     "h": "요지 야마모토(Yohji Yamamoto), 청담동 3개월 한정 팝업",
+     "s": "신세계인터내셔날이 압구정로60길에 2027년 1월 31일까지 팝업 운영. 11월 6일 출간된 'Yohji Yamamoto Drawing'의 미공개 드로잉과 26FW 컬렉션 공개, 일부 라인은 이 매장 단독 판매.",
+     "src": "신세계그룹 뉴스룸 11.05 · 데일리안 11.05",
+     "links": [
+      [
+       "원문",
+       "https://www.shinsegaegroupnewsroom.com/yohji-yamamoto-opens-a-pop-up-store-in-cheongdam-dong/"
+      ],
+      [
+       "국내 보도",
+       "https://www.dailian.co.kr/news/view/1711057/"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "해외",
+     "type": "리스트",
+     "h": "2026 CFDA 패션 어워즈, 랄프 로렌(Ralph Lauren) 올해의 남성복 디자이너 세 번째 수상",
+     "s": "여성복은 레이철 스콧(Diotima), 인터내셔널은 앤서니 바카렐로(Saint Laurent), 액세서리는 아나 쿠리, 신인은 콜린 앨런 수상. CFDA 패션 펀드는 제인 리(Lii).",
+     "src": "nss magazine 11.03 · Fashionista 11.07",
+     "links": [
+      [
+       "원문",
+       "https://www.nssmag.com/en/fashion/47525/rachel-scott-and-ralph-lauren-are-the-cfda-american-designer-of-the-year"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "해외",
+     "type": "디렉터 변경",
+     "h": "루이 비통(Louis Vuitton), 엑토르 무엘라스(Hector Muelas)를 최고브랜드크리에이티브책임자로 선임",
+     "s": "티파니 CBCO 출신 무엘라스가 11월 1일부로 신설 직책에 부임. 다미앵 베르트랑 부CEO에게 보고하며 글로벌 캠페인과 크리에이티브·콘텐츠 총괄.",
+     "src": "WWD · AD HOC NEWS 11.02",
+     "links": [
+      [
+       "원문",
+       "https://ad-hoc-news.de/boerse/news/corporate-news/lvmh-stock-gets-new-louis-vuitton-brand-chief/70444328"
+      ]
+     ],
+     "week": true
+    }
+   ]
+  },
+  {
+   "en": "Beauty",
+   "ko": "뷰티",
+   "items": [
+    {
+     "side": "해외",
+     "type": "인수·매각",
+     "h": "록시땅(L'Occitane), 엘레미스(Elemis)를 PAI 파트너스(PAI Partners)에 매각",
+     "s": "인수 7년 만에 영국 스킨케어 브랜드 엘레미스를 사모펀드 PAI 파트너스에 매각, 거래액 비공개. 록시땅 체제에서 매출이 약 2배인 3억 달러 이상으로 성장, PAI는 미국·디지털 채널 확대 계획.",
+     "src": "Cosmetics Business 11.05 · Global Cosmetics News 11.07",
+     "links": [
+      [
+       "원문",
+       "https://cosmeticsbusiness.com/l-occitane-group-offloads-elemis-to-pai-partners"
+      ],
+      [
+       "주간 정리",
+       "https://www.globalcosmeticsnews.com/global-cosmetics-news-weekly-review-week-45-november-2026/"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "해외",
+     "type": "컬래버",
+     "h": "코티(Coty), 마크 제이콥스(Marc Jacobs) 뷰티 라이선스 40년 연장",
+     "s": "WHP 글로벌·G-III와 맺은 향수·메이크업 라이선스를 40년 연장. 2003년 '데이지'로 시작한 협업이며, 5월 재출시한 메이크업 라인은 목표 실적 상회 중이라고 발표.",
+     "src": "Cosmetics Business 11.04",
+     "links": [
+      [
+       "원문",
+       "https://cosmeticsbusiness.com/coty-extends-marc-jacobs-beauty-license-for-40-years"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "국내",
+     "type": "확장",
+     "h": "메디큐브·바이오던스, 런던 셀프리지(Selfridges) 상설 카운터 오픈",
+     "s": "셀프리지 옥스퍼드 스트리트 본점 K-뷰티 구역에 입점. 바이오던스는 세계 첫 상설 매장, 메디큐브는 유럽 첫 상설 매장.",
+     "src": "BeautyMatter 11.02",
+     "links": [
+      [
+       "원문",
+       "https://beautymatter.com/articles/selfridges-medicube-biodance"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "국내",
+     "type": "인수·매각",
+     "h": "LG생활건강, 힌스(hince) 운영사 비바웨이브 지분 100% 확보",
+     "s": "11월 3일 이사회에서 콜옵션으로 잔여 지분 25% 인수 의결, 가격 비공개. 2023년 425억 원에 75%를 인수한 데 이은 완전 자회사화.",
+     "src": "메트로신문 11.03 · CEO스코어데일리 11.06",
+     "links": [
+      [
+       "원문",
+       "https://www.metroseoul.co.kr/article/20261103500451"
+      ],
+      [
+       "국내 보도",
+       "https://ceoscoredaily.com/page/view/2026110416211371081"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "국내",
+     "type": "확장",
+     "h": "메디필, 미국 노드스트롬(Nordstrom) 입점",
+     "s": "스킨아이디어의 메디필이 미국 브랜드명 'MDP+'로 노드스트롬 정규 매장·노드스트롬 랙·온라인에 순차 입점. 전 채널 8종 전개 예정.",
+     "src": "CMN 11.07",
+     "links": [
+      [
+       "원문",
+       "https://www.cmn.co.kr/sub/news/news_view.asp?news_idx=51491"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "en": "Entertainment",
+   "ko": "엔터",
+   "items": [
+    {
+     "side": "국내",
+     "type": "캠페인",
+     "h": "BTS 정국, 그라프(Graff) 홀리데이 캠페인 'I Wish' 주연",
+     "s": "그라프 66년 역사상 첫 글로벌 앰배서더인 정국이 홀리데이 필름에서 '로렌스 그라프 시그니처' 컬렉션 착용. 같은 시기 캘빈클라인 홀리데이 기획 'Jung Kook Unwraps the Icons'도 공개.",
+     "src": "스타뉴스 11.07 · 톱스타뉴스 11.07",
+     "links": [
+      [
+       "원문",
+       "https://www.starnewskorea.com/en/star/2026/11/07/2026110707380887084"
+      ],
+      [
+       "국내 보도",
+       "https://www.topstarnews.net/news/articleView.html?idxno=16270426"
+      ]
+     ]
+    },
+    {
+     "side": "해외",
+     "type": "캠페인",
+     "h": "디올(Dior), 실뱅 쇼메(Sylvain Chomet) 연출 애니메이션 홀리데이 필름…리한나·로버트 패틴슨 목소리 출연",
+     "s": "조너선 앤더슨이 의뢰한 손그림 단편 'Christian Dior's Night in Color' 공개. 크리스찬 디올과 마를레네 디트리히의 우정이 모티프이며, 패틴슨 내레이션에 리한나·루이 가렐 등이 목소리 출연.",
+     "src": "WWD 11.04 · Designscene 11.04",
+     "links": [
+      [
+       "원문",
+       "https://www.designscene.net/2026/11/dior-holiday-2026.html"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "해외",
+     "type": "캠페인",
+     "h": "구찌(Gucci), 머라이어 캐리(Mariah Carey) 주연 홀리데이 캠페인…하모니 코린(Harmony Korine) 연출",
+     "s": "'All I Want for Christmas Is You'를 배경으로 캐리의 호텔 도착을 준비하는 직원들을 그린 필름 공개. 캐리는 '버터플라이' 스페셜 컬렉션 착용.",
+     "src": "WWD 11.02 · Rolling Stone 11.03",
+     "links": [
+      [
+       "원문",
+       "https://readdork.com/news/mariah-carey-gucci-holiday-campaign-harmony-korine-3adbb278bb"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "국내",
+     "type": "캠페인",
+     "h": "뚜레쥬르, 배우 이도현 브랜드 모델 발탁",
+     "s": "CJ푸드빌 뚜레쥬르가 이도현을 새 모델로 선정하고 연말 케이크 중심 홀리데이 캠페인 시작. 광고 영상은 11월 11일 공개 예정.",
+     "src": "파이낸셜뉴스 11.05 · 뉴스핌 11.05",
+     "links": [
+      [
+       "원문",
+       "https://www.fnnews.com/news/202611050915373843"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "해외",
+     "type": "컬래버",
+     "h": "'헝거게임: 선라이즈 온 더 리핑' × 센트버드(Scentbird)·드리프트(Drift) 향 컬렉션",
+     "s": "라이언스게이트와 손잡은 한정판 오 드 퍼퓸·홈 디퓨저·차량용 방향제 11월 5일 출시. 11월 20일 영화 개봉에 앞선 IP 라이선스 확장.",
+     "src": "PR Newswire 11.05 · Parade 11.05",
+     "links": [
+      [
+       "원문",
+       "https://parade.com/news/new-hunger-games-movie-is-getting-an-unexpected-fragrance-collection-and-fans-can-shop-it-starting-at-15"
+      ]
+     ],
+     "week": true
+    }
+   ]
+  },
+  {
+   "en": "Art",
+   "ko": "아트",
+   "items": [
+    {
+     "side": "국내",
+     "type": "전시",
+     "h": "국립현대미술관 과천관, 「조지아 오키프와 미국 모더니즘」 11월 12일 개막",
+     "s": "시카고미술관의 알프레드 스티글리츠 컬렉션 중심 회화·사진 107점. 오키프 작품의 국내 첫 소개로 2027년 3월 21일까지, 이후 부산현대미술관 순회.",
+     "src": "피플투데이 11.08 · 비건뉴스 11.05",
+     "links": [
+      [
+       "원문",
+       "https://www.epeopletoday.com/news/articleView.html?idxno=22605"
+      ],
+      [
+       "국내 보도",
+       "https://www.vegannews.co.kr/news/article.html?no=400793"
+      ]
+     ]
+    },
+    {
+     "side": "해외",
+     "type": "디렉터 변경",
+     "h": "휘트니 미술관(Whitney Museum), 2028 비엔날레 큐레이터에 멕 온리·잭 위노커",
+     "s": "2028년 3월 개막하는 제83회 휘트니 비엔날레를 내부 큐레이터 멕 온리와 안무가·연출가 잭 위노커가 공동 기획. 2026 비엔날레는 관람객 55만 명 이상 기록.",
+     "src": "The Art Newspaper 11.06 · Hyperallergic 11.06",
+     "links": [
+      [
+       "원문",
+       "https://www.theartnewspaper.com/2026/11/06/whitney-biennial-2028-curators-meg-onli-zack-winokur"
+      ],
+      [
+       "보도",
+       "https://hyperallergic.com/meg-onli-and-zack-winokur-to-curate-2028-whitney-biennial/"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "국내",
+     "type": "경매",
+     "h": "서울옥션 「2026 옥션쇼」 11월 11~24일…이브닝세일 최고가 김환기 28억 원",
+     "s": "2주간 경매 12회, 약 1,000점 출품. 11월 23일 이브닝세일은 34점 약 190억 원 규모로 김환기 전면점화, 데이미언 허스트, 이우환, 쿠사마 야요이 출품.",
+     "src": "아시아경제 11.02",
+     "links": [
+      [
+       "원문",
+       "https://view.asiae.co.kr/article/2026110217174197150"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "국내",
+     "type": "전시",
+     "h": "제16회 광주비엔날레, 11월 15일 폐막 앞둬",
+     "s": "「너는 네 삶을 바꿔야 한다」 주제로 10월 15일 기준 누적 관람객 20만 명 돌파. 폐막 전 작가·큐레이터와의 만남 프로그램 운영.",
+     "src": "전남일보 11.04",
+     "links": [
+      [
+       "원문",
+       "https://www.jnilbo.com/news/articleView.html?idxno=90000079519"
+      ]
+     ],
+     "week": true
+    }
+   ],
+   "note": "뉴욕 11월 메이저 경매는 11.16~18 열려요. 낙찰 결과는 발표 후 이 자리에서 다룹니다."
+  },
+  {
+   "en": "Gastronomy",
+   "ko": "미식",
+   "items": [
+    {
+     "side": "해외",
+     "type": "부고",
+     "h": "이탈리아 첫 여성 미쉐린 3스타 셰프 나디아 산티니(Nadia Santini) 별세, 향년 72세",
+     "s": "만토바 인근 '달 페스카토레(Dal Pescatore)'를 1996년 3스타로 이끈 셰프. 2013년 월드 베스트 여성 셰프 수상, 두 아들이 레스토랑 운영 승계.",
+     "src": "ANSA 11.02",
+     "links": [
+      [
+       "원문",
+       "https://www.ansa.it/english/news/lifestyle/food_wine/2026/11/02/first-italian-3-star-female-chef-dies-at-72_7c5b4284-10a1-4694-91c4-360b9217d7f2.html"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "해외",
+     "type": "리스트",
+     "h": "미쉐린 가이드 이탈리아 2027(Guida Michelin Italia), 빕 구르망 37곳 신규 선정",
+     "s": "신규 37곳 선공개로 총 276곳, 전년 255곳 대비 증가. 스타 발표는 11월 12일 피아첸차에서 예정.",
+     "src": "Scatti di Gusto 11.06",
+     "links": [
+      [
+       "원문",
+       "https://www.scattidigusto.it/bib-gourmand-michelin-2027"
+      ]
+     ]
+    },
+    {
+     "side": "해외",
+     "type": "리스트",
+     "h": "미쉐린 가이드 스위스 2026, 안데르마트 '더 재패니즈 레스토랑' 3스타 승격",
+     "s": "더 체디 안데르마트 내 '더 재패니즈 레스토랑(The Japanese Restaurant)'이 2스타에서 3스타로 승격. 스위스 3스타 총 5곳, 스타 레스토랑 133곳.",
+     "src": "MICHELIN Guide 11.02 · Cuisine Helvetica 11.03",
+     "links": [
+      [
+       "원문",
+       "https://guide.michelin.com/en/article/michelin-guide-ceremony/michelin-guide-switzerland-2026-andermatt-three-stars"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "국내",
+     "type": "확장",
+     "h": "CJ제일제당 '퀴진케이' 출신 한식 파인다이닝 '오닐(ONIL)', 용산 정식 오픈",
+     "s": "퀴진케이 8번째 팝업으로 6개월간 약 700명이 찾은 진연준·최인규 셰프의 레스토랑이 용산에 정식 매장 오픈. 퀴진케이 출신 셰프 중 4번째 독립 한식당.",
+     "src": "한국경제 11.02 · 쿠키뉴스 11.02",
+     "links": [
+      [
+       "원문",
+       "https://www.hankyung.com/article/202611029528i"
+      ],
+      [
+       "국내 보도",
+       "https://www.kukinews.com/article/view/kuk202611020052"
+      ]
+     ],
+     "week": true
+    },
+    {
+     "side": "국내",
+     "type": "리브랜딩",
+     "h": "CJ푸드빌 빕스(VIPS), 잠실점 '그릴 다이닝' 전환 재오픈",
+     "s": "11월 9일 스테이크 중심 '그릴 다이닝' 콘셉트로 잠실점 재오픈. 대구(11.12)·부천중동(11.26)·수원(12.17)에 이어 연말까지 8개 매장으로 확대 계획.",
+     "src": "ZDNet Korea 11.08",
+     "links": [
+      [
+       "원문",
+       "https://zdnet.co.kr/view/?no=20261108101335"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "memo": [
+  "주말이 겹쳐 최근 24시간 소식이 적어, 지난 1주일 화제 소식으로 채운 항목에 ◆ 표시를 했어요.",
+  "뉴욕 11월 메이저 경매(소더비 11.16·18, 크리스티·필립스 11.17) 결과는 발표 후 아트에서 다룹니다.",
+  "미쉐린 가이드 태국 2027 스타 발표(11.10), 이탈리아 2027 스타 발표(11.12) 대기 중.",
+  "젠틀몬스터 AI 안경 미국 사전예약(11.12)·뉴욕 체험 행사(11.13~23), 로에베×디즈니 출시(11.12) 후속을 지켜봅니다.",
+  "마틴 로즈의 발렌시아가 공식 부임은 11.16이에요."
+ ]
+}
