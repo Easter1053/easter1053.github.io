@@ -67,7 +67,7 @@ def body(d):
 </div></header>
 <nav class="toc" aria-label="카테고리"><div class="wrap">{toc}</div></nav>
 <section class="read"><div class="wrap">
-<p class="kick">THE READ · 오늘의 해석</p>
+<p class="kick">THE READ · 오늘의 미학</p>
 <h2>{e(r["h"])}</h2>
 {buzz}<p class="lab">WHAT HAPPENED</p>
 <p class="lede">{e(r["lede"])}</p>
