@@ -77,10 +77,10 @@ def body(d):
 <p class="card">{e(r["card"]).replace("@mihak.branding", f'<a href="{IG}" target="_blank" rel="noopener">@mihak.branding</a>')}</p>
 </div></section>
 <section class="picks"><div class="wrap">
-<div class="sec-head"><p class="bar">EDITOR'S SELECTION</p><h2>Today's <em>Picks</em></h2><p>오늘 가장 이슈가 된 브랜딩 뉴스 다섯</p></div>
+<div class="sec-head"><p class="bar">EDITOR'S SELECTION</p><h2>TODAY'S <em>PICKS</em></h2><p>오늘 가장 이슈가 된 브랜딩 뉴스 다섯</p></div>
 <ol>{picks}</ol>
 </div></section>
-<div class="band"><div class="wrap"><div class="b-t">The <em>Briefing</em></div><span class="cap">{total} stories · five categories</span></div></div>
+<div class="band"><div class="wrap"><div class="b-t">THE <em>BRIEFING</em></div><span class="cap">{total} stories · five categories</span></div></div>
 {sec}
 <section class="memo"><div class="wrap"><span class="cap">Editor's Memo</span><p class="m-t">Before you go</p><ul>{memo}</ul></div></section>
 {footer()}'''

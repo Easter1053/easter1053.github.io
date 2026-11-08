@@ -171,3 +171,12 @@ a:focus-visible{outline:2px solid var(--k);outline-offset:2px}
 .arch h1{font-family:var(--sans);font-weight:800;letter-spacing:-.03em}
 .arch .d{font-family:var(--sans);font-weight:700;font-size:14px}
 .read p,.item-s,.pick-why,.memo li,.note p{text-wrap:pretty}
+/* Section titles — uppercase wide Pretendard (option C) */
+.sec-head h2{font-weight:600;font-size:clamp(24px,6.6vw,30px);letter-spacing:.14em;padding-left:.14em;margin-top:12px}
+.band .b-t{font-weight:600;font-size:clamp(22px,6vw,28px);letter-spacing:.14em;padding-left:.14em}
+.cat-idx{font-weight:600;font-size:34px;letter-spacing:.02em}
+.cat-en{font-weight:600;font-size:clamp(18px,5vw,22px);letter-spacing:.14em;text-transform:uppercase}
+.pick-no{font-weight:700;font-size:20px}
+.pick-h,.item-h{font-weight:700}
+.toc-en{font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:11px}
+.arch h1{font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:30px}
