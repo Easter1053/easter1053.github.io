@@ -71,7 +71,7 @@ def body(d):
 <p class="card">{e(r["card"])}</p>
 </div></section>
 <section class="picks"><div class="wrap">
-<div class="sec-head"><p class="bar">EDITOR'S SELECTION</p><h2>Today's <em>Picks</em></h2><p>오늘 가장 이슈가 된 럭셔리 뉴스 다섯</p></div>
+<div class="sec-head"><p class="bar">EDITOR'S SELECTION</p><h2>Today's <em>Picks</em></h2><p>오늘 가장 이슈가 된 브랜딩 뉴스 다섯</p></div>
 <ol>{picks}</ol>
 </div></section>
 <div class="band"><div class="wrap"><div class="b-t">The <em>Briefing</em></div><span class="cap">{total} stories · five categories</span></div></div>
@@ -136,7 +136,7 @@ def build(issue_path, artifact=None):
     issues = all_issues()
     latest = issues[0]
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(
-        page("THE MIHAK — 더 미학 데일리", "아트디렉터의 미학 브랜딩 매거진. 매일 아침 패션·뷰티·엔터·아트·미식 럭셔리 뉴스와 THE READ.", body(latest), ""))
+        page("THE MIHAK — 더 미학 데일리", "아트디렉터의 미학 브랜딩 매거진. 매일 아침 패션·뷰티·엔터·아트·미식 브랜딩 뉴스와 THE READ.", body(latest), ""))
     rows = "".join(
         f'<li><a href="../issues/{x["iso"]}/"><span class="d">{x["iso"].replace("-", ".")}<br>{e(x["no"])}</span>'
         f'<span class="t">{e(x["read"]["h"])}<span class="s">{" · ".join(e(p["h"]) for p in x["picks"][:3])}</span></span></a></li>'
