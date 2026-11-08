@@ -53,10 +53,10 @@ def body(d):
         sec += (f'<section class="cat" id="c{i+1}"><div class="wrap"><header class="cat-head"><span class="cat-idx">{i+1:02d}</span><div>'
                 f'<span class="cat-en">{c["en"]}</span><span class="cat-sub"><b>{c["ko"]}</b>{sub}</span></div></header>{items}{note}</div></section>')
     r = d["read"]
-    def sec(n, k, paras, cls=""):
+    def rsec(n, k, paras, cls=""):
         return (f'<div class="rs{cls}"><p class="rs-k"><span class="rs-n">{n}</span><span class="rs-t">{k}</span></p>'
                 + "".join(f"<p>{e(x)}</p>" for x in paras) + '</div>') if paras else ""
-    secs = sec("01", "WHAT HAPPENED", [r["lede"]]) + sec("02", "LIVE BX", r.get("bx")) + sec("03", "BRANDING AESTHETICS", r.get("ba"))
+    secs = rsec("01", "WHAT HAPPENED", [r["lede"]]) + rsec("02", "LIVE BX", r.get("bx")) + rsec("03", "BRANDING AESTHETICS", r.get("ba"))
     quote = f'<blockquote class="rq">{e(r["quote"])}</blockquote>' if r.get("quote") else ""
     fy = (f'<div class="fy"><p class="rs-k"><span class="rs-n">04</span><span class="rs-t">FOR YOU</span></p>'
           + "".join(f"<p>{e(x)}</p>" for x in r["foryou"])
@@ -66,12 +66,12 @@ def body(d):
     return f'''<header class="mast"><div class="wrap">
 <div class="folio"><span class="cap">Aesthetic Branding Magazine</span><a href="{IG}" target="_blank" rel="noopener">@mihak.branding</a></div>
 <p class="date"><i>|</i>{e(date_label(d))}<i>|</i></p>
-<div class="logo"><span class="the">THE</span><span class="mk">MIHAK</span></div>
+<div class="logo"><span class="the">THE</span><span class="mk">MIHAK<span class="dot">.</span></span></div>
 <p class="tagline">아트디렉터의 미학 브랜딩 매거진 · Daily</p>
 </div></header>
 <nav class="toc" aria-label="카테고리"><div class="wrap">{toc}</div></nav>
 <section class="read"><div class="wrap">
-<p class="kick">THE READ · 오늘의 미학</p>
+<p class="kick"><b>THE READ</b> · 오늘의 미학</p>
 <h2>{e(r["h"])}</h2>
 {secs}{quote}{fy}
 <p class="card">{e(r["card"]).replace("@mihak.branding", f'<a href="{IG}" target="_blank" rel="noopener">@mihak.branding</a>')}</p>
@@ -88,7 +88,7 @@ def body(d):
 
 def footer():
     return f'''<footer class="foot"><div class="wrap">
-<div class="logo"><span class="the">THE</span><span class="mk">MIHAK</span></div>
+<div class="logo"><span class="the">THE</span><span class="mk">MIHAK<span class="dot">.</span></span></div>
 <p class="tagline">브랜딩은 미학에서 시작된다</p>
 <div class="rule"></div>
 <a class="ig" href="{IG}" target="_blank" rel="noopener">@mihak.branding</a>
@@ -98,7 +98,7 @@ def footer():
 
 def topnav(prefix):
     return f'''<div class="topnav"><div class="wrap"><a class="brand" href="{prefix}">THE MIHAK</a><nav>
-<a href="{prefix}">Daily</a><a href="{prefix}archive/">Archive</a><a href="{CONSULT}" target="_blank" rel="noopener">상담 신청</a><a href="{IG}" target="_blank" rel="noopener">Instagram</a></nav></div></div>'''
+<a href="{prefix}">Daily</a><a href="{prefix}archive/">Archive</a><a class="cta" href="{CONSULT}" target="_blank" rel="noopener">상담 신청</a><a href="{IG}" target="_blank" rel="noopener">Instagram</a></nav></div></div>'''
 
 
 def page(title, desc, inner, prefix):
